@@ -1,0 +1,76 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.cat-pic {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 15px;
+  left: 40px;
+}
+#title {
+  background-color: #a9b388;
+  color: #2b2a4c;
+}
+.tin-pic {
+  width: 190px;
+  height: 190px;
+  position: relative;
+  left: 60px;
+}
+.buttondiv {
+  margin-top: 8px;
+}
+#tintitle {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  font-size: 4rem;
+  line-height: 1.67;
+  margin-bottom: 30px !important;
+}
+.container-fluid {
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+.fixednavbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+.nav-link {
+  font-size: 1.2rem !important ;
+  font-family: "Familjen Grotesk", sans-serif;
+}
+.apple {
+  margin-right: 10px;
+}
+#features {
+  padding: 10% 10%;
+}
+#feature-box {
+  padding: 5%;
+  text-align: center;
+}
+#feature-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
+  margin-top: 1rem !important;
+}
+p {
+  color: #8f8f8f;
+}
+#icon {
+  font-size: 4rem;
+  color: #c6dba6;
+}
+#icon:hover {
+  color: #a9b388;
+}
