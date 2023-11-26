@@ -74,3 +74,38 @@ p {
 #icon:hover {
   color: #a9b388;
 }
+#testimonials {
+  text-align: center;
+  background-color: #c6dba6;
+  line-height: 1.5;
+}
+#press {
+  background-color: #c6dba6;
+}
+#testimonial-statement {
+  font-size: 2.2rem;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.testimonial-image {
+  padding: 5%;
+  width: 30%;
+  border-radius: 100%;
+}
+.testimonial-image-lady {
+  padding: 5%;
+  width: 20%;
+  border-radius: 100%;
+}
+#press {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-pic {
+  width: 10%;
+  margin: 0% 5% 2% 5%;
+}
+.carousel-item {
+  padding: 10% 10%;
+}
