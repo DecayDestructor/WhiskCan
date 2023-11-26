@@ -137,24 +137,89 @@
 
     <!-- Testimonials -->
 
-    <section id="testimonials">
-      <h2>Mhhmh, don't disturb me, I'm having the best tin food ever. Meow!</h2>
-      <img src="images/cateating.jpeg" alt="cat" />
-      <em>Pebbles, New York</em>
+ <section id="testimonials">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 id="testimonial-statement">
+              Mhhmh, don't disturb me, I'm having the best tin food ever. Meow!
+            </h2>
 
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+            <img
+              class="testimonial-image"
+              src="images/cateating.jpeg"
+              alt="cat"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 id="testimonial-statement">
+              My dog used to be so lonely, but with TinDog's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img
+              class="testimonial-image-lady"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev arrow-carousel"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <!-- Press -->
 
     <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
+      <img class="press-pic" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-pic" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-pic"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-pic" src="images/mashable.png" alt="mashable-logo" />
     </section>
+
 
     <!-- Pricing -->
 
