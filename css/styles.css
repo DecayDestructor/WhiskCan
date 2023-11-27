@@ -110,3 +110,14 @@ h2 {
 .carousel-item {
   padding: 10% 10%;
 }
+#pricing {
+  padding: 2% 5% 4% 5%;
+  margin: 10% 0% 10% 0%;
+  text-align: center;
+}
+.card-title {
+  padding: 2%;
+}
+#pricing-card {
+  margin-top: 10%;
+}
