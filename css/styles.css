@@ -157,3 +157,10 @@ h2 {
   padding: 1%;
   color: black;
 }
+.card-header {
+  background-color: #c6dba6 !important;
+}
+.card-footer {
+  background-color: #f3eeea !important;
+}
+
