@@ -121,3 +121,39 @@ h2 {
 #pricing-card {
   margin-top: 10%;
 }
+@media (max-width: 765px) {
+  #title {
+    text-align: center;
+  }
+}
+#cta {
+  text-align: center;
+  background-color: #a9b388;
+  padding: 5%;
+}
+#footer-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+#footer-apple {
+  margin-bottom: 5%;
+}
+#footer-android {
+  margin-bottom: 5%;
+}
+#footer {
+  text-align: center;
+  padding: 5%;
+}
+.icons-socios {
+  text-align: center;
+  padding: 5% 5% 2% 5%;
+  margin-bottom: 2%;
+}
+.socio-icon {
+  padding: 1%;
+  color: black;
+}
